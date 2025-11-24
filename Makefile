@@ -12,7 +12,7 @@ target/${PLUGIN_NAME}.zip:
 
 .PHONY: wp-setup
 wp-setup:
-	docker-compose exec wordpress /scripts/setup.sh ${ADMIN_USER} ${ADMIN_PASS}
+	docker-compose exec -u www-data wordpress /scripts/setup.sh ${ADMIN_USER} ${ADMIN_PASS}
 
 .PHONY: wp-start
 wp-start:

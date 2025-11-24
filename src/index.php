@@ -1,6 +1,6 @@
 <?php
 /**
-* Plugin Name: My Plugin
+* Plugin Name: smplfy plugin
 * Plugin URI: https://vojay.de/
 * Description: Boilerplate to develop your own WordPress plugin
 * Version: 0.1
