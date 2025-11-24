@@ -4,7 +4,7 @@
 * Plugin URI: https://vojay.de/
 * Description: Boilerplate to develop your own WordPress plugin
 * Version: 0.1
-* Author: Volker Janz
+* Author: Liam Nell
 * Author URI: https://vojay.de/
 **/
 
