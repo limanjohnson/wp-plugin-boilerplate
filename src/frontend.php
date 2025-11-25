@@ -9,6 +9,7 @@ function render() {
         
         <div class="wrap">
             <h2>Hello World!</h2>
+            <p>If this message is here, then FTP Deploy is working!</p>
         </div>
 
     <?php
