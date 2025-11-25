@@ -11,6 +11,7 @@ function render() {
             <h2>Hello World!</h2>
             <p>If this message is here, then FTP Deploy is working!</p>
             <p>Another test</p>
+            <p>Last Test</p>
         </div>
 
     <?php
