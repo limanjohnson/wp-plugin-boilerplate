@@ -15,6 +15,7 @@ define("MY_PLUGIN_SLUG", "my-plugin");
 
 require_once MY_PLUGIN_PATH . "admin.php";
 require_once MY_PLUGIN_PATH . "frontend.php";
+require_once MY_PLUGIN_PATH . "gravity-forms.php";
 
 register_activation_hook(__FILE__, "setup_db");
 
