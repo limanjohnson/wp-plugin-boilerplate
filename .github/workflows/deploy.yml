@@ -1,0 +1,23 @@
+name: deploy to live
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout
+
+      - name: FTP Deploy
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_LIVE_USERNAME }}
+          password: ${{ secrets.FTP_LIVE_PASSWORD }}
+          local-dir: ./src/
+          server-dir: /wp-content/plugins/smplfy-intern-plugin/
+
