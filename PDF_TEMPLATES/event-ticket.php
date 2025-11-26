@@ -38,8 +38,9 @@ if ( ! class_exists( 'GFForms' ) ) {
 <!-- The PDF content should be placed in here -->
 
 <div class="ticket">
+    <h2>Event Ticket</h2>
     <div>
-        <h2>Event Name</h2>
+        <p>Event Name</p>
         <?php echo $form_data['field'][5]; ?>
     </div>
     <div class="field-row">
@@ -52,6 +53,11 @@ if ( ! class_exists( 'GFForms' ) ) {
     </div>
     <div class="field-row">
         <span class="label">Add-Ons:</span>
-        <?php echo $form_data['field'][8]; ?>
+        <ul>
+            <?php foreach($form_data['field'][8] as $addon) : ?>
+                <li><php echo esc_html($addon); ?></li>
+            <?php endforeach; ?>
+        </ul>
+
     </div>
 </div>
