@@ -9,7 +9,7 @@ function render() {
         
         <div class="wrap">
             <h2>Hello World!</h2>
-            <p>This is a test site to implement internship tasks</p>
+            <p>Here is a demo message for loom</p>
         </div>
 
     <?php
