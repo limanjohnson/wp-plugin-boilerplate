@@ -21,3 +21,12 @@ jobs:
           local-dir: ./src/
           server-dir: public_html/wp-content/plugins/smplfy-intern-plugin/
 
+      - name: FTP Deploy PDF Templates
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_LIVE_USERNAME }}
+          password: ${{ secrets.FTP_LIVE_PASSWORD }}
+          local-dir: ./PDF_TEMPLATES/
+          server-dir: public_html/wp-content/uploads/PDF_EXTENDED_TEMPLATES/
+
