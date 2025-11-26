@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3ab11f08-1edb-43b5-a60c-08f66e141fd5" name="wp-local" url="http://localhost">
+        <fileTransfer mountedRoot="$USER_HOME$/Local Sites/liam-intern/app/public/wp-content/plugins/smplfy-intern-plugin" accessType="MOUNT" port="0" />
+      </webServer>
+      <webServer id="a7a37441-c2fd-4112-9b11-e447630ea88c" name="wp-pdf-local" url="http://localhost">
+        <fileTransfer mountedRoot="$USER_HOME$/Local Sites/liam-intern/app/public/wp-content/uploads" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>

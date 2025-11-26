@@ -27,6 +27,6 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_LIVE_USERNAME }}
           password: ${{ secrets.FTP_LIVE_PASSWORD }}
-          local-dir: ./PDF_TEMPLATES/
+          local-dir: ./PDF_EXTENDED_TEMPLATES/
           server-dir: public_html/wp-content/uploads/PDF_EXTENDED_TEMPLATES/
 
